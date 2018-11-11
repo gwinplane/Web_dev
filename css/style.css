@@ -169,9 +169,16 @@ body {
 
 .team_cards {
 	display: flex;
-	flex-direction: row;
-	margin: 0 30px;
+	justify-content: space-between;
+	margin: 0 10px;
 }
+
+
+.team_cards__per {
+	width: 33%;
+	padding: 0 5px;
+}
+
 
 .photo {
 	background-color: #d7d7d7;
@@ -182,20 +189,35 @@ body {
 	margin: 20px auto;
 }
 
-.team_cards__per {
-	flex-direction: column;
-}
-
 .name {
 	font: 20px bold;
 	font-family: Open Sans;
+	margin-bottom: 7px;
 }
 .position {
 	font-family: Open Sans;
 	font-size: 16px;
+	margin-bottom: 30px;
+	
 }
+
+
+.position p {
+	margin-bottom: 30px;
+}
+
 
 .about_position {
 	font-family: Open Sans;
 	font-size: 14px;
+}
+
+.info {
+	padding: 100px 0 100px 0;
+}
+
+
+.info_text {
+	text-align: center;
+	color: #a5a5a5;
 }
