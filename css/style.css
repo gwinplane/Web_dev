@@ -221,3 +221,61 @@ body {
 	text-align: center;
 	color: #a5a5a5;
 }
+
+.serv_kinds {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 10px 100px;
+}
+
+.serv_kinds__per {
+	width: 33%;
+	padding: 0 5px;
+	text-align: center;
+}
+
+.photo_serv {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 20px auto;
+	border: 5px #fcac45 solid;
+}
+
+
+.ph-one {
+	background: url(../img/serv_1.png) 30px no-repeat;
+	
+}
+
+.ph-two {
+	background: url(../img/serv_2.png) 40px no-repeat;
+}
+
+
+.ph-three {
+	background: url(../img/serv_3.png) 30px no-repeat;
+}
+
+
+.ph-four {
+	background: url(../img/serv_4.png) 33px no-repeat;
+}
+
+
+.name_serv {
+	font: 25px bold;
+	font-family: Open Sans;
+	margin-bottom: 7px;
+	text-transform: uppercase;
+}
+
+.about_serv {
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+.about_serv p {
+	margin-top: 20px;
+}
