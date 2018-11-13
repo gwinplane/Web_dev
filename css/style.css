@@ -280,3 +280,60 @@ body {
 .about_serv p {
 	margin-top: 20px;
 }
+
+
+
+
+
+.clients {
+	font-family: Open Sans;
+	color: #fff;
+	background-color: #111111;
+	text-align: center;
+	padding: 100px 0 165px 0;
+}
+
+.clients_our {
+	display: flex;
+	justify-content: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	
+
+}
+
+/*.title_team {
+	border-bottom: 4px #fcac45 solid;
+}*/
+
+.clients_our {
+  position: relative;
+  /*z-index : 1;*/
+  margin-bottom: 115px;
+}
+
+.clients_our:before {
+  content : "";
+  position: absolute;
+  /*left    : 0;*/
+  bottom  : 0;
+  /*height  : 1px;*/
+  width   : 9%;  /* or 100px */
+  border-bottom: 3px #fcac45 solid;
+}
+
+.clients_title {
+	margin-bottom: 30px;
+	font-weight: 100;
+}
+
+.clients_title--warn {
+	font-weight: bold;
+}
+
+.labes {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 35px;
+	margin: 0 96px;
+}
