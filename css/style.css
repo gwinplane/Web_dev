@@ -334,6 +334,42 @@ body {
 .labes {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding-bottom: 35px;
 	margin: 0 96px;
+
+}
+
+.Works {
+	padding: 100px 0 100px 0;
+}
+
+
+.work_text {
+	text-align: center;
+	color: #6c6c6c;
+}
+
+.our_works___serv {
+	font-weight: 100;
+}
+
+.our_works___serv--normal {
+	font-weight: bold;
+}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 165px;
+}
+
+.portfolio__photo {
+	margin: 10px;
+}
+.portfolio__photo:hover {
+	opacity: 0.6;
+	-webkit-transform: rotateZ(20deg);
+	-ms-transform: rotateZ(20deg);
+	transform: rotateZ(20deg);
 }
