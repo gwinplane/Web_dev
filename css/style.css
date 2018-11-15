@@ -50,6 +50,11 @@ body {
 
 }
 
+@media screen and (max-width: 110px)
+	.header__nav__item a {
+		display: none;
+	}
+
 
 .section-center {
 	text-align: center;
@@ -367,9 +372,143 @@ body {
 .portfolio__photo {
 	margin: 10px;
 }
+
 .portfolio__photo:hover {
 	opacity: 0.6;
 	-webkit-transform: rotateZ(20deg);
 	-ms-transform: rotateZ(20deg);
 	transform: rotateZ(20deg);
+}
+
+
+
+.clients_b {
+	font-family: Open Sans;
+	color: #fff;
+	background-color: #111111;
+	text-align: center;
+	padding: 100px 0 165px 0;
+}
+
+.clients_black {
+	display: flex;
+	justify-content: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	
+
+}
+
+/*.title_team {
+	border-bottom: 4px #fcac45 solid;
+}*/
+
+.clients_black {
+  position: relative;
+  /*z-index : 1;*/
+  margin-bottom: 115px;
+}
+
+.clients_black:before {
+  content : "";
+  position: absolute;
+  /*left    : 0;*/
+  bottom  : 0;
+  /*height  : 1px;*/
+  width   : 9%;  /* or 100px */
+  border-bottom: 3px #fcac45 solid;
+}
+
+.clients_titleb {
+	margin-bottom: 30px;
+	font-weight: 100;
+	font-weight: bold;
+}
+
+.clients_titleb--warn {
+	margin-bottom: 30px;
+	font-weight: 100;
+}
+
+.work_textb {
+	text-align: center;
+	font-size: 16px;
+}
+
+.nameb {
+	font-size: 14px;
+
+}
+
+.nameb--b {
+	font-weight: 100;
+}
+
+.name__test {
+	padding-top: 30px;
+}
+
+
+.contacts_form {
+	padding: 100px 0 100px 0;
+}
+
+.contact_wrapper {
+	max-width: 752px;
+	margin: 0 auto;
+	padding: 0 15px;
+	color: #636363;
+}
+
+.red {
+	color: red;
+}
+
+.contact_text {
+	text-align: center;
+	color: #a5a5a5;
+}
+
+.form__inputs {
+	display: flex;
+}
+
+
+input {
+	width: 343px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input:first-of-type {
+	margin-right: 28px;
+}
+
+textarea {
+	width: 100%;
+	height: 163px;
+}
+
+input, textarea {
+	border: 1px solid #999999;
+	margin-top: 5px;
+}
+
+.button__block {
+	display: flex;
+	justify-content: flex-end; 
+}
+
+input[type=submit] {
+	width: 165px;
+	height: 40px;
+	background: #fcac45;
+	color: #fff;
+	margin-right: 0;
+	margin-top: 20px; 
+}
+
+.form_down {
+	padding-top: 70px;
 }
